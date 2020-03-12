@@ -1,12 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CheatTable CheatEngineTableVersion="29">
-  <CheatEntries>
-    <CheatEntry>
-      <ID>4</ID>
-      <Description>"Block Skill Reset Stones EP3"</Description>
-      <LastState Activated="1"/>
-      <VariableType>Auto Assembler Script</VariableType>
-      <AssemblerScript>//block D/G from using skill reset by Bowie 12/2019
+//block D/G from using skill reset by Bowie 12/2019
 [ENABLE]
 alloc(newmem,128)
 label(return)
@@ -43,8 +35,3 @@ dealloc(newmem)
 0044CD46:
 mov ecx,[ebx+30]
 cmp dword ptr [ecx+000000A0],1A
-</AssemblerScript>
-    </CheatEntry>
-  </CheatEntries>
-  <UserdefinedSymbols/>
-</CheatTable>
