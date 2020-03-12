@@ -1,12 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CheatTable CheatEngineTableVersion="29">
-  <CheatEntries>
-    <CheatEntry>
-      <ID>50</ID>
-      <Description>"Auto Assemble script"</Description>
-      <LastState/>
-      <VariableType>Auto Assembler Script</VariableType>
-      <AssemblerScript>//client version -1 exploit solution by Bowie 01/2020
+//client version -1 exploit solution by Bowie 01/2020
 [ENABLE]
 0040740C:
 je 00407421
@@ -20,8 +12,3 @@ je 00407424
 
 0040741B:
 je 00407424
-</AssemblerScript>
-    </CheatEntry>
-  </CheatEntries>
-  <UserdefinedSymbols/>
-</CheatTable>
