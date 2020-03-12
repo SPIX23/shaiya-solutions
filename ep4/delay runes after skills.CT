@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="29">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>580</ID>
+      <Description>"Delay Runes After Skills"</Description>
+      <Options moManualExpandCollapse="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>579</ID>
+          <Description>"Capital"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>//delay capital recall runes by Bowie 02/2020
+[ENABLE]
+alloc(newmem,128)
+label(return)
+label(exit)
+
+newmem:
+cmp dword ptr [ebp+00001274],02
+je 00465E18
+cmp dword ptr [eax+000001A4],00
+
+exit:
+jmp return
+
+004666C3:
+jmp newmem
+nop
+nop
+return:
+
+[DISABLE]
+dealloc(newmem)
+004666C3:
+cmp dword ptr [eax+000001A4],00
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>578</ID>
+          <Description>"Bootleggery"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>//delay bootleggery recall runes by Bowie 02/2020
+[ENABLE]
+alloc(newmem,128)
+label(return)
+label(exit)
+
+newmem:
+cmp dword ptr [ebp+00001274],02
+je 00465E18
+cmp dword ptr [eax+000001A4],00
+
+exit:
+jmp return
+
+0046675D:
+jmp newmem
+nop
+nop
+return:
+
+[DISABLE]
+dealloc(newmem)
+0046675D:
+cmp dword ptr [eax+000001A4],00
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>575</ID>
+          <Description>"Arena"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>//delay arena recall runes by Bowie 02/2020
+[ENABLE]
+alloc(newmem,128)
+label(return)
+label(exit)
+
+newmem:
+cmp dword ptr [ebp+00001274],02
+je 00465E18
+cmp dword ptr [eax+000001A4],00
+
+exit:
+jmp return
+
+004667F7:
+jmp newmem
+nop
+nop
+return:
+
+[DISABLE]
+dealloc(newmem)
+004667F7:
+cmp dword ptr [eax+000001A4],00
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>577</ID>
+          <Description>"Guild House"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>//delay guild house runes by Bowie 02/2020
+[ENABLE]
+alloc(newmem,128)
+label(return)
+label(exit)
+
+newmem:
+cmp dword ptr [ebp+00001274],02
+je 00466A17
+cmp dword ptr [eax+000001A4],06
+
+exit:
+jmp return
+
+0046690C:
+jmp newmem
+nop
+nop
+return:
+
+[DISABLE]
+dealloc(newmem)
+0046690C:
+cmp dword ptr [eax+000001A4],06
+</AssemblerScript>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
