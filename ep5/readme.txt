@@ -14,3 +14,4 @@ added the ep5 version of the rune skill cut solution
 
 added the ep5 version of the skill reset stone block for defenders and guardians
 
+side note: some of the ct files are combinations of multiple scripts that need to be separated before assembling
