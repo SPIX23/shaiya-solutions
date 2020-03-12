@@ -2,7 +2,7 @@ notes:
 
 all server side scripts for ep5 are valid for ep6, because the ep6 ps_game is an ep5 ps_game with a modified pe header
 
-included a possible solution for capes being enchanted via client hacking
+included a possible solution for capes being enchanted via client reversing (probably packet related)
 
 the solution for the stealth exploit was added, but may not be necessary in this epsiode
 
