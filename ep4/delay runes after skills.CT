@@ -1,19 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CheatTable CheatEngineTableVersion="29">
-  <CheatEntries>
-    <CheatEntry>
-      <ID>580</ID>
-      <Description>"Delay Runes After Skills"</Description>
-      <Options moManualExpandCollapse="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1" moAllowManualCollapseAndExpand="1"/>
-      <LastState Value="" RealAddress="00000000"/>
-      <GroupHeader>1</GroupHeader>
-      <CheatEntries>
-        <CheatEntry>
-          <ID>579</ID>
-          <Description>"Capital"</Description>
-          <LastState/>
-          <VariableType>Auto Assembler Script</VariableType>
-          <AssemblerScript>//delay capital recall runes by Bowie 02/2020
+//delay capital recall runes by Bowie 02/2020
 [ENABLE]
 alloc(newmem,128)
 label(return)
@@ -37,14 +22,8 @@ return:
 dealloc(newmem)
 004666C3:
 cmp dword ptr [eax+000001A4],00
-</AssemblerScript>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>578</ID>
-          <Description>"Bootleggery"</Description>
-          <LastState/>
-          <VariableType>Auto Assembler Script</VariableType>
-          <AssemblerScript>//delay bootleggery recall runes by Bowie 02/2020
+
+//delay bootleggery recall runes by Bowie 02/2020
 [ENABLE]
 alloc(newmem,128)
 label(return)
@@ -68,14 +47,8 @@ return:
 dealloc(newmem)
 0046675D:
 cmp dword ptr [eax+000001A4],00
-</AssemblerScript>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>575</ID>
-          <Description>"Arena"</Description>
-          <LastState/>
-          <VariableType>Auto Assembler Script</VariableType>
-          <AssemblerScript>//delay arena recall runes by Bowie 02/2020
+
+//delay arena recall runes by Bowie 02/2020
 [ENABLE]
 alloc(newmem,128)
 label(return)
@@ -99,14 +72,8 @@ return:
 dealloc(newmem)
 004667F7:
 cmp dword ptr [eax+000001A4],00
-</AssemblerScript>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>577</ID>
-          <Description>"Guild House"</Description>
-          <LastState/>
-          <VariableType>Auto Assembler Script</VariableType>
-          <AssemblerScript>//delay guild house runes by Bowie 02/2020
+
+//delay guild house runes by Bowie 02/2020
 [ENABLE]
 alloc(newmem,128)
 label(return)
@@ -130,10 +97,3 @@ return:
 dealloc(newmem)
 0046690C:
 cmp dword ptr [eax+000001A4],06
-</AssemblerScript>
-        </CheatEntry>
-      </CheatEntries>
-    </CheatEntry>
-  </CheatEntries>
-  <UserdefinedSymbols/>
-</CheatTable>
