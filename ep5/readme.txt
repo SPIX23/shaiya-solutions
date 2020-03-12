@@ -1,6 +1,6 @@
 notes:
 
-all server side scripts for ep5 are valid for ep6, because the ep6 ps_game is an ep5 ps_game with a modified pe header
+ps_game scripts for ep5 are valid for ep6, because the ep6 ps_game (1556kb) is an ep5 ps_game (1549kb) with an edited pe
 
 included a possible solution for capes being enchanted via client modification (probably packet related also)
 
