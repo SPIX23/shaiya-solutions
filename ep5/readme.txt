@@ -8,6 +8,8 @@ added a modification that will remove the code that keeps guards from detecting 
 
 added a ps_game solution that will prevent the service from crashing if a gm dismounts while invisible
 
+added an ep5 ps_game that has been reversed to have no custom dll injections for those who don't want the item mall
+
 side notes: 
 
 ps_game scripts for ep5 are valid for ep6, because the ep6 ps_game (1556kb) is an ep5 ps_game (1549kb) with an edited pe
