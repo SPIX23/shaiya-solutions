@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="29">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>246</ID>
+      <Description>"Guards Detect Stealth"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>//guards detect stealth by Bowie 01/2020
+[ENABLE]
+004BC2F3:
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+
+004BC2FA:
+nop
+nop
+nop
+nop
+nop
+nop
+
+[DISABLE]
+004BC2F3:
+cmp byte ptr [esi+00001354],00
+
+004BC2FA:
+jne 004BC3E6
+</AssemblerScript>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
