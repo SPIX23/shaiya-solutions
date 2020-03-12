@@ -1,12 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CheatTable CheatEngineTableVersion="29">
-  <CheatEntries>
-    <CheatEntry>
-      <ID>8</ID>
-      <Description>"Block Cape Enchant"</Description>
-      <LastState/>
-      <VariableType>Auto Assembler Script</VariableType>
-      <AssemblerScript>//block cape enchantment by Bowie 03/2020
+//block cape enchantment by Bowie 03/2020
 [ENABLE]
 alloc(newmem,128)
 label(return)
@@ -37,8 +29,3 @@ dealloc(newmem)
 0046CC79:
 cmp byte ptr [edi+42],01
 jne 0046D5BE
-</AssemblerScript>
-    </CheatEntry>
-  </CheatEntries>
-  <UserdefinedSymbols/>
-</CheatTable>
