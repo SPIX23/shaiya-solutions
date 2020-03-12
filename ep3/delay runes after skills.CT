@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="29">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>18</ID>
+      <Description>"Delay Runes After Skills EP3"</Description>
+      <Options moManualExpandCollapse="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="" Activated="1" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>20</ID>
+          <Description>"Arena Recall Rune"</Description>
+          <LastState Activated="1"/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>//delay arena recall runes after skills by Bowie 12/2019
+[ENABLE]
+alloc(newmem,128)
+label(return)
+label(exit)
+
+newmem:
+cmp dword ptr [ebp+00001164],02
+je 0044D460
+cmp dword ptr [eax+0000019C],00
+
+exit:
+jmp return
+
+0044DD94:
+jmp newmem
+nop
+nop
+return:
+
+[DISABLE]
+dealloc(newmem)
+0044DD94:
+cmp dword ptr [eax+0000019C],00
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>21</ID>
+          <Description>"Capital Recall Rune"</Description>
+          <LastState Activated="1"/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>//delay capital runes after skills by Bowie 12/2019
+[ENABLE]
+alloc(newmem,128)
+label(return)
+label(exit)
+
+newmem:
+cmp dword ptr [ebp+00001164],02
+je 0044D460
+cmp dword ptr [eax+0000019C],00
+
+exit:
+jmp return
+
+0044DC52:
+jmp newmem
+nop
+nop
+return:
+
+[DISABLE]
+dealloc(newmem)
+0044DC52:
+cmp dword ptr [eax+0000019C],00
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>17</ID>
+          <Description>"Bootleggery Rune"</Description>
+          <LastState Activated="1"/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>//delay bootleggery runes after skills by Bowie 12/2019
+[ENABLE]
+alloc(newmem,128)
+label(return)
+label(exit)
+
+newmem:
+cmp dword ptr [ebp+00001164],02
+je 0044D460
+cmp dword ptr [eax+0000019C],00
+
+exit:
+jmp return
+
+0044DCF3:
+jmp newmem
+nop
+nop
+return:
+
+[DISABLE]
+dealloc(newmem)
+0044DCF3:
+cmp dword ptr [eax+0000019C],00
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>19</ID>
+          <Description>"Guild House Rune"</Description>
+          <LastState Activated="1"/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>//delay guild house runes after skills by Bowie 12/2019
+[ENABLE]
+alloc(newmem,128)
+label(return)
+label(exit)
+
+newmem:
+cmp dword ptr [ebp+00001164],02
+je 0044DFB1
+cmp dword ptr [eax+0000019C],06
+
+exit:
+jmp return
+
+0044DEB0:
+jmp newmem
+nop
+nop
+return:
+
+[DISABLE]
+dealloc(newmem)
+0044DEB0:
+cmp dword ptr [eax+0000019C],06
+</AssemblerScript>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <CheatCodes>
+    <CodeEntry>
+      <Description>Change of jne ps_game.exe+5174A</Description>
+      <AddressString>ps_game.exe+512C7</AddressString>
+      <Before>
+        <Byte>20</Byte>
+        <Byte>12</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>0F</Byte>
+        <Byte>85</Byte>
+        <Byte>7D</Byte>
+        <Byte>04</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>8B</Byte>
+        <Byte>C5</Byte>
+        <Byte>E8</Byte>
+        <Byte>FC</Byte>
+        <Byte>D1</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of jne ps_game.exe+53D45</Description>
+      <AddressString>ps_game.exe+53D3B</AddressString>
+      <Before>
+        <Byte>20</Byte>
+        <Byte>12</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>0D</Byte>
+      </Before>
+      <Actual>
+        <Byte>75</Byte>
+        <Byte>08</Byte>
+      </Actual>
+      <After>
+        <Byte>6A</Byte>
+        <Byte>00</Byte>
+        <Byte>55</Byte>
+        <Byte>E8</Byte>
+        <Byte>4B</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of jne ps_game.exe+3F955</Description>
+      <AddressString>ps_game.exe+3F910</AddressString>
+      <Before>
+        <Byte>97</Byte>
+        <Byte>D0</Byte>
+        <Byte>11</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>75</Byte>
+        <Byte>43</Byte>
+      </Actual>
+      <After>
+        <Byte>0F</Byte>
+        <Byte>B6</Byte>
+        <Byte>84</Byte>
+        <Byte>39</Byte>
+        <Byte>8D</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of je ps_game.exe+70F9F</Description>
+      <AddressString>ps_game.exe+70DC5</AddressString>
+      <Before>
+        <Byte>20</Byte>
+        <Byte>12</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>0D</Byte>
+      </Before>
+      <Actual>
+        <Byte>0F</Byte>
+        <Byte>84</Byte>
+        <Byte>D4</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>8B</Byte>
+        <Byte>87</Byte>
+        <Byte>DC</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols/>
+</CheatTable>

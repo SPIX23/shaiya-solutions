@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="29">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>15</ID>
+      <Description>"Skills From Stealth EP3"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>//allows skills in stealth by Bowie 12/2019
+[ENABLE]
+0045139B:
+nop
+nop
+nop
+nop
+nop
+nop
+//will also break stealth like it should ^^
+[DISABLE]
+0045139B:
+jne ps_game.exe+5174A
+</AssemblerScript>
+    </CheatEntry>
+  </CheatEntries>
+  <CheatCodes>
+    <CodeEntry>
+      <Description>Change of jne ps_game.exe+5174A</Description>
+      <AddressString>ps_game.exe+512C7</AddressString>
+      <Before>
+        <Byte>20</Byte>
+        <Byte>12</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>0F</Byte>
+        <Byte>85</Byte>
+        <Byte>7D</Byte>
+        <Byte>04</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>8B</Byte>
+        <Byte>C5</Byte>
+        <Byte>E8</Byte>
+        <Byte>FC</Byte>
+        <Byte>D1</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols/>
+</CheatTable>
