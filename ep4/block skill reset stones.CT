@@ -1,12 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CheatTable CheatEngineTableVersion="29">
-  <CheatEntries>
-    <CheatEntry>
-      <ID>245</ID>
-      <Description>"Block Skill Reset Stones"</Description>
-      <LastState/>
-      <VariableType>Auto Assembler Script</VariableType>
-      <AssemblerScript>//block skill reset stones by Bowie 01/2020
+//block skill reset stones by Bowie 01/2020
 [ENABLE]
 alloc(newmem,128)
 label(return)
@@ -42,8 +34,3 @@ dealloc(newmem)
 00465640:
 mov ecx,[ebx+30]
 cmp dword ptr [ecx+000000A0],1A
-</AssemblerScript>
-    </CheatEntry>
-  </CheatEntries>
-  <UserdefinedSymbols/>
-</CheatTable>
