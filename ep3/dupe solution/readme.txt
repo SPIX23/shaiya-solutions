@@ -9,3 +9,11 @@ added nubness' stored procedures that need to be added to ps_gamelog.dbo.usp_Ins
 side notes:
 
 the leave column in ps_userdata.dbo.users_master must update for the dbo.usp_Insert_Action_Log_E procedures to work
+
+add this to usp_Try_GameLogin_Taiwan above the execute statement for usp_Insert_LoginLog_E
+
+UPDATE Users_Master SET Leave = 1, JoinDate = GETDATE() WHERE UserUID = @UserUID
+
+add this to usp_Try_GameLogout_R below the update statement for usp_Insert_LoginLog_E
+
+UPDATE Users_Master SET Leave = 0, JoinDate = GETDATE() WHERE UserUID = @UserUID;
