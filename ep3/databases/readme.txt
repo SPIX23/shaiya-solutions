@@ -2,7 +2,7 @@ notes:
 
 added a ps_gamedata database that will function well with ep3 servers
 
-added a default ps_gamedefs database that works with ep3 server files but needs mob, skill, and item editing
+added a ps_gamedefs database that works with ep3 server files but needs mob, skill, and item editing
 
 side notes:
 
