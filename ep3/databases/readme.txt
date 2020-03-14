@@ -4,6 +4,6 @@ added a ps_gamedata database that will function well with ep3 servers
 
 side notes:
 
-databases from newer episodes work with ep3 servers except for ps_gamedata and ps_gamedefs
+ps_userdata, ps_billing, and ps_gamelog databases from newer episodes work with ep3 servers
 
-the ep3 ps_dbAgent calls to execute the stored procedure names that are in the uploaded database
+the ps_gamedata and ps_gamedefs stored procedures from newer episodes do not match the ep3 ps_dbAgent
