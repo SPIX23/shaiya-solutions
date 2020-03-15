@@ -1,3 +1,5 @@
+disclaimer: this solution is has not been tested enough to confirm that it prevents duping on ep3 servers
+
 notes:
 
 added a ps_dbAgent that has been edited to match lilprohacker's ep4 dupe solution
