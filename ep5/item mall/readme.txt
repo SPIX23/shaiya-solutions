@@ -14,12 +14,10 @@ removed the prior dll assembly hooks in the ps_game and added a new hook for the
 
 renamed itemmallfix.dll to ps_game.dll
 
-replaced the episode 4 ps_dbAgent with lilprohacker's
-
-added the sql procedure that was released alongside the ps_bdAgent
-
-added sql procedures from the prior version and the linked servers sql query
+added the linked server sql query
 
 side notes:
 
 the linked servers query has the default username and password and needs to be edited with your credentials
+
+the sql database files provided in the root directory have been tested working with this item mall solution
