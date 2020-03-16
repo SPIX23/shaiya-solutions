@@ -1,6 +1,6 @@
 notes:
 
-added an updated version of shen's item mall fix for ep5 servers
+added an updated version of shen's item mall fix for ep5 servers along with the source code
 
 added a possible solution for capes being enchanted via client modification (likely accompanied by packet injection)
 
