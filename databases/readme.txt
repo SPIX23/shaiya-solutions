@@ -1,5 +1,5 @@
 notes:
 
-added sql databases that are compatible with ep4 and ep5 server files
+added sql databases for ep4 and ep5 servers that are vastly improved but require more bug testing
 
 side notes:
