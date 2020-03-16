@@ -21,5 +21,3 @@ added the linked server sql query
 side notes:
 
 the linked servers query has the default username and password and needs to be edited with your credentials
-
-the sql database files provided in the root directory have been tested working with this item mall solution
