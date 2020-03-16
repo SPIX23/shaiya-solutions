@@ -1,6 +1,6 @@
 notes:
 
-added sql databases files that can be used with ep4 and ep5 servers that are vastly improved but require more bug testing
+added sql databases for ep4 and ep5 servers that are vastly improved but require more bug testing
 
 added a connection overflow solution for the most commonly used ps_login (312kb)
 
