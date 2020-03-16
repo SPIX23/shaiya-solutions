@@ -1,0 +1,4 @@
+USE PS_UserData;
+CREATE LOGIN yourusername1234 WITH PASSWORD = 'yourpassword1234', DEFAULT_DATABASE = PS_UserData;
+CREATE USER yourusername1234;
+GRANT UPDATE, SELECT, EXECUTE ON DATABASE::PS_UserData TO yourusername1234;
