@@ -8,9 +8,9 @@ updated the source code to have 16 character strings for the username and passwo
 
 the new connection string is tested to be compatible with sql versions higher than 2012
 
-added an sql script to easily create a login with the minimal database permissions required for use
+added an sql script that creates a login with the minimal database permissions required for use
 
-replaced the ps_game with one reported not to have random disconnects after testing with populated servers
+replaced the ps_game with one reported not to have random disconnects by two server administrators
 
 removed the prior dll assembly hooks in the ps_game and added a new hook for the ps_game.dll
 
