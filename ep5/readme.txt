@@ -1,5 +1,7 @@
 notes:
 
+added an updated version of shen's item mall fix for ep5 servers
+
 added a possible solution for capes being enchanted via client modification (likely accompanied by packet injection)
 
 added ct scripts to help solve issues with rune skill cutting, the skill cooldown exploit, and prevent the stealth exploit
