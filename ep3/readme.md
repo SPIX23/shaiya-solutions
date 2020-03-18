@@ -4,7 +4,7 @@
 
 * some ct files that help solve issues with rune skill cutting, the skill cooldown exploit, and prevent the stealth exploit
 
-* a modification that will allow rangers and sins to use skills from stealth like they are able to with newer episodes
+* a modification that will allow rangers and sins to use skills from stealth like they are able to in newer episodes
 
 **notes**
 
