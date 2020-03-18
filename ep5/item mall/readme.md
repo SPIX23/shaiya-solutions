@@ -18,8 +18,8 @@ https://github.com/zidane168/Shaiya-Projects/tree/master/Fix%20Item%20mall%20SQL
 
 **contents**
 
-* a sql script that creates a login with the minimal database permissions required
+* sql query that creates a login with the minimal database permissions required
 
-* a ps_game reported not to have random disconnects by two server administrator
+* ps_game reported not to have random disconnects by two server administrator
 
-* a linked servers query that needs to be edited to match your login credentials
+* linked servers query that needs to be edited to match your login credentials
