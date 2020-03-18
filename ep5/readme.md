@@ -2,15 +2,15 @@
 
 * an updated version of shen's item mall solution for ep5 servers along with the source code
 
+* an ep5 ps_game that has been reversed to have no custom dll injections for those that don't want an item mall
+
 * a possible solution for capes being enchanted via client modification (likely accompanied by packet injection)
 
-* some ct scripts that help solve issues with rune skill cutting, the skill cooldown exploit, and prevent the stealth exploit
+* ct files that help solve issues with rune skill cutting, the skill cooldown exploit, and prevent the stealth exploit
 
-* a modification that will remove the code that keeps guards from detecting a character in stealth mode
+* ct file that will remove the code that keeps guards from detecting a character in stealth mode
 
-* a ps_game script that will prevent the service from crashing if a gm dismounts while invisible (reported by two admins)
-
-* an ep5 ps_game that has been reversed to have no custom dll injections for those that don't want an item mall
+* ct file that will prevent the service from crashing if a gm dismounts while invisible (reported by two admins)
 
 **notes** 
 
