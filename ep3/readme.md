@@ -1,6 +1,6 @@
 **contents**
 
-* an sql query that will solve the nostrum hack by making nostrum skills learned above the maximum server level
+* a sql query that will solve the nostrum hack by making nostrum skills learned above the maximum server level
 
 * some ct files that help solve issues with rune skill cutting, the skill cooldown exploit, and prevent the stealth exploit
 
