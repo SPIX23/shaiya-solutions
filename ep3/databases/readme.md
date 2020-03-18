@@ -6,4 +6,4 @@
 
 **notes**
 
-* ps_userdata, ps_billing, and ps_gamelog databases from newer episodes work with ep3 server
+* ps_userdata, ps_billing, and ps_gamelog databases from newer episodes work with ep3 server files
