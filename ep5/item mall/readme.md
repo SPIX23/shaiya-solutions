@@ -1,4 +1,6 @@
-*an updated version of this project - https://github.com/zidane168/Shaiya-Projects/tree/master/Fix%20Item%20mall%20SQL%202012*
+*this is an updated version of the project linked below* 
+
+https://github.com/zidane168/Shaiya-Projects/tree/master/Fix%20Item%20mall%20SQL%202012
 
 **instructions**
 
