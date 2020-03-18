@@ -6,6 +6,8 @@
 
 * ct file that will allow rangers and sins to use skills from stealth like they are able to in newer episodes
 
+* ps_gamedata database for ep3 that was tested on a live server and should be relatively bug-free
+
 **notes**
 
 * some of the ct files are combinations of multiple scripts that need to be separated before assembling
