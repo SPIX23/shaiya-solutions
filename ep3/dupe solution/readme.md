@@ -14,10 +14,10 @@
 
 **instructions**
 
-* add this to usp_Try_GameLogin_Taiwan above the execute statement for usp_Insert_LoginLog_E
+* add this to ps_userdata.dbo.usp_Try_GameLogin_Taiwan above the execute statement for dbo.usp_Insert_LoginLog_E
 
 **UPDATE Users_Master SET Leave = 1, JoinDate = GETDATE() WHERE UserUID = @UserUID**
 
-* add this to usp_Try_GameLogout_R below the update statement for usp_Insert_LoginLog_E
+* add this to ps_userdata.dbo.usp_Try_GameLogout_R below the update statement for dbo.usp_Insert_LoginLog_E
 
 **UPDATE Users_Master SET Leave = 0, JoinDate = GETDATE() WHERE UserUID = @UserUID;**
