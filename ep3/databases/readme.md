@@ -1,8 +1,6 @@
 **contents**
 
-* a ps_gamedata database that will function well with ep3 servers
-
-* a ps_gamedefs database that works with ep3 server files but needs mob, skill, and item editing
+* an ep3 ps_gamedata database that was tested on a live server and should be relatively bug-free
 
 **notes**
 
