@@ -4,7 +4,7 @@
 
 * ps_dbAgent for ep3 that has been edited to match lilprohacker's ep4 packet-based dupe solution
 
-* lilprohacker's stored procedure that has been edited for the bootleggery wld file dimensions
+* lilprohacker's stored procedure that has been slightly edited for the bootleggery Y coordinate
 
 * nubness' stored procedures that need to be added to ps_gamelog.dbo.usp_Insert_Action_Log_E
 
