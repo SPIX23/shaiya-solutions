@@ -14,7 +14,7 @@ https://github.com/zidane168/Shaiya-Projects/tree/master/Fix%20Item%20mall%20SQL
 
 * updated source code with 16 character strings for the username and password
 
-* new connection string that is tested to be compatible with sql versions higher than 2012
+* connection string that is tested to be compatible with sql versions higher than 2012
 
 **contents**
 
