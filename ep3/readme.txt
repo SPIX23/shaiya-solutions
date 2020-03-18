@@ -1,11 +1,11 @@
-notes:
+**contents**
 
-added an sql query that will solve the nostrum hack by making nostrum skills learned at a level above the maximum server level
+* an sql query that will solve the nostrum hack by making nostrum skills learned above the maximum server level
 
-added ct scripts to help solve issues with rune skill cutting, the skill cooldown exploit, and prevent the stealth exploit
+* ct files that help solve issues with rune skill cutting, the skill cooldown exploit, and prevent the stealth exploit
 
-added a modification that will allow rangers and sins to use skills from stealth like they are able to with newer episodes
+* a modification that will allow rangers and sins to use skills from stealth like they are able to with newer episodes
 
-side notes: 
+**notes**
 
-some of the ct files are combinations of multiple scripts that need to be separated before assembling
+* some of the ct files are combinations of multiple scripts that need to be separated before assembling
