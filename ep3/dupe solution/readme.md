@@ -2,7 +2,7 @@
 
 **contents**
 
-* a ps_dbAgent that has been edited to match lilprohacker's ep4 packet-based dupe solution
+* ps_dbAgent for ep3 that has been edited to match lilprohacker's ep4 packet-based dupe solution
 
 * lilprohacker's stored procedure that has been edited for the bootleggery wld file dimensions
 
