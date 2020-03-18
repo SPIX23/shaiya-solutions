@@ -16,8 +16,8 @@
 
 1. add this to usp_Try_GameLogin_Taiwan above the execute statement for usp_Insert_LoginLog_E
 
-**UPDATE Users_Master SET Leave = 1, JoinDate = GETDATE() WHERE UserUID = @UserUID**
+1. **UPDATE Users_Master SET Leave = 1, JoinDate = GETDATE() WHERE UserUID = @UserUID**
 
 2. add this to usp_Try_GameLogout_R below the update statement for usp_Insert_LoginLog_E
 
-**UPDATE Users_Master SET Leave = 0, JoinDate = GETDATE() WHERE UserUID = @UserUID;**
+2. **UPDATE Users_Master SET Leave = 0, JoinDate = GETDATE() WHERE UserUID = @UserUID;**
