@@ -14,6 +14,6 @@
 
 **notes** 
 
-* ps_game scripts for ep5 are valid for ep6 because the ep6 ps_game (1556kb) is an ep5 ps_game (1549kb) with an edited PE header
+* ps_game scripts for ep5 are valid for ep6 because the ep6 ps_game (1556kb) is an edited ep5 ps_game (1549kb)
 
 * some of the ct files are combinations of multiple scripts that need to be separated before assembling
