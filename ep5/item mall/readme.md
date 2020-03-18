@@ -4,7 +4,7 @@ https://github.com/zidane168/Shaiya-Projects/tree/master/Fix%20Item%20mall%20SQL
 
 **instructions**
 
-1. search the dll with a hex editor for the username and password located in the ps_game.sql file as a unicode string 
+1. search the dll with a hex editor for the username and password located in the ps_game.sql file as unicode strings
 
 2. replace them with a username and password that has the same amount of characters 
 
