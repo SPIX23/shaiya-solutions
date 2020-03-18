@@ -1,6 +1,6 @@
 **contents**
 
-* ct files that help solve issues with rune skill cutting, the skill cooldown exploit, and prevent the stealth exploit
+* some ct files that help solve issues with rune skill cutting, the skill cooldown exploit, and prevent the stealth exploit
 
 * a modification that will remove the code that keeps guards from detecting a character in stealth mode
 
