@@ -1,3 +1,3 @@
 **contents**
 
-* some ep3 interface files that have been edited for various reasons
+* interface files for ep3 that have been edited for various reasons
