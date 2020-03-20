@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="29">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"GRB Point Bug Solution"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>//grb point bug solution by Bowie 03/2020
+[ENABLE]
+00427D17:
+db 90 90 90 90
+ 
+[DISABLE]
+00427D17:
+mov edi,[esp+10]
+</AssemblerScript>
+    </CheatEntry>
+  </CheatEntries>
+  <CheatCodes>
+    <CodeEntry>
+      <Description>Change of mov edi,[esp+10]</Description>
+      <AddressString>ps_game.exe+27D17</AddressString>
+      <Before>
+        <Byte>FF</Byte>
+        <Byte>D6</Byte>
+        <Byte>66</Byte>
+        <Byte>8B</Byte>
+        <Byte>07</Byte>
+      </Before>
+      <Actual>
+        <Byte>8B</Byte>
+        <Byte>7C</Byte>
+        <Byte>24</Byte>
+        <Byte>10</Byte>
+      </Actual>
+      <After>
+        <Byte>8B</Byte>
+        <Byte>0F</Byte>
+        <Byte>8D</Byte>
+        <Byte>54</Byte>
+        <Byte>24</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols/>
+</CheatTable>
