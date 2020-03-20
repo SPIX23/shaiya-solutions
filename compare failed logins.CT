@@ -1,12 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CheatTable CheatEngineTableVersion="29">
-  <CheatEntries>
-    <CheatEntry>
-      <ID>50</ID>
-      <Description>"compare failed logins"</Description>
-      <LastState/>
-      <VariableType>Auto Assembler Script</VariableType>
-      <AssemblerScript>//decrease failed login attempts by Bowie 01/2020
+//decrease failed login attempts by Bowie 01/2020
 [ENABLE]
 004045F4:
 cmp dword ptr [esi+00000130],03 //login attempts
@@ -14,8 +6,3 @@ cmp dword ptr [esi+00000130],03 //login attempts
 [DISABLE]
 004045F4:
 cmp dword ptr [esi+00000130],0A
-</AssemblerScript>
-    </CheatEntry>
-  </CheatEntries>
-  <UserdefinedSymbols/>
-</CheatTable>
