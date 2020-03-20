@@ -8,7 +8,7 @@
 
 * improved ps_gamedata database for ep3 that was tested on a live server and should be relatively bug-free
 
-* ct file that corrects the grb bug of prior ranking battle points stacking with the current ranking battle points
+* ct file that corrects the bug of prior ranking battle points stacking with the current ranking battle points
 
 **notes**
 
