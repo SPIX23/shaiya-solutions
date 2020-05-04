@@ -67,7 +67,7 @@ BEGIN
     --Set all the pos. to bootleg so it doesn't throw an error
     SET @Map = 42
     SET @PosxR = 66.5
-    SET @PosYR = 6.0 --must be higher for bootleggery
+    SET @PosYR = 6.0 --must be this height for bootleggery
     SET @PosZR = 52.6
 END
 
