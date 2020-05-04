@@ -4,6 +4,8 @@
 
 * ct file that will remove the code that keeps guards from detecting a character in stealth mode
 
+* ct files that disable the /iclear, /eclear, and /warning commands
+
 **notes** 
 
 * some of the ct files are combinations of multiple scripts that need to be separated before assembling
