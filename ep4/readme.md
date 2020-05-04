@@ -6,6 +6,8 @@
 
 * ct files that disable the /iclear, /eclear, and /warning commands
 
+* ps_dbAgent with packet based dupe fix with edited [dbo].[usp_Save_Char_Info_E] (credits: lilprohacker)
+
 **notes** 
 
 * some of the ct files are combinations of multiple scripts that need to be separated before assembling
