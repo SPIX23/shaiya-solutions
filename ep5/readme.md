@@ -12,6 +12,10 @@
 
 * ct file that will prevent the service from crashing if a gm dismounts while invisible (reported by two admins)
 
+* ct files that disable the /iclear, /eclear, and /warning commands
+
+* ini file that enables the in-game clock in the game.exe to function - credits: ThatBestNub
+
 **notes** 
 
 * some of the ct files are combinations of multiple scripts that need to be separated before assembling
