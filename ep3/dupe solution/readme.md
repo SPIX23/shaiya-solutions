@@ -4,13 +4,13 @@
 
 * ps_dbAgent for ep3 that has been edited to match lilprohacker's ep4 packet-based dupe solution
 
-* lilprohacker's stored procedure that has been slightly edited for the bootleggery Y coordinate
+* stored procedure that has been slightly edited for the bootleggery Y coordinate (credits: lilprohacker)
 
-* nubness' stored procedures that need to be added to ps_gamelog.dbo.usp_Insert_Action_Log_E
+* stored procedures that need to be added to ps_gamelog.dbo.usp_Insert_Action_Log_E (credits: nubness)
 
 **notes**
 
-* leave status must update properly for the dbo.usp_Insert_Action_Log_E procedures to work
+* leave status must update properly for the dbo.usp_Insert_Action_Log_E procedures (included with my ps_userdata)
 
 **instructions**
 
