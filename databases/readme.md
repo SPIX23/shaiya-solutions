@@ -1,6 +1,6 @@
 **contents**
 
-* clean sql databases that are compatible with ep3, ep4, and ep5 db_Agent.exe files
+* clean sql databases that are compatible with ep3, ep4, and ep5 server files
 
 **notes**
 
