@@ -22,7 +22,7 @@ https://github.com/zidane168/Shaiya-Projects/tree/master/Fix%20Item%20mall%20SQL
 
 * ps_game reported not to have random disconnects
 
-* db_Agent for ep5 that doesn't dc after 10 item mall purchases
+* ps_dbAgent for ep5 that doesn't dc after 10 item mall purchases
 
 * linked servers query that needs to be edited to match your login credentials
 
