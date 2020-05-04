@@ -1,0 +1,16 @@
+//disable clear commands by Bowie 01/2020
+[ENABLE]
+00473685://disable iclear
+nop
+nop
+
+0047370F://disable eclear
+nop
+nop
+
+[DISABLE]
+0047370F:
+jne 00473731
+
+00473685:
+jne 004736A7
