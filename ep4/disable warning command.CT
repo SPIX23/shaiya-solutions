@@ -1,0 +1,8 @@
+//disable /warning command by Bowie 02/2020
+[ENABLE]
+00474A9C:
+jmp 00474B05
+
+[DISABLE]
+00474A9C:
+je 00474B05
