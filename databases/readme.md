@@ -4,4 +4,4 @@
 
 **notes**
 
-* ep3 ps_game is not compatible with ps_gamedefs.dbo.mobitem itemorder column of newer episodes that have more than 3 rows
+* the ep3 ps_game accepts the ps_gamedefs.dbo.mobitem itemorder column that has 3 rows and will have errors with 9 rows
