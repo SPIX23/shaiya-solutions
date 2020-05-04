@@ -11,13 +11,3 @@
 **notes**
 
 * leave status must update properly for the dbo.usp_Insert_Action_Log_E procedures (included with my ps_userdata)
-
-**instructions**
-
-* add this to ps_userdata.dbo.usp_Try_GameLogin_Taiwan above the execute statement for dbo.usp_Insert_LoginLog_E
-
-**UPDATE Users_Master SET Leave = 1, JoinDate = GETDATE() WHERE UserUID = @UserUID**
-
-* add this to ps_userdata.dbo.usp_Try_GameLogout_R below the update statement for dbo.usp_Insert_LoginLog_E
-
-**UPDATE Users_Master SET Leave = 0, JoinDate = GETDATE() WHERE UserUID = @UserUID;**
