@@ -34,14 +34,14 @@ BEGIN DISTRIBUTED TRANSACTION
 EXEC @ReturnValue = PS_UserData.dbo.usp_Update_UserPoint @UserUID, @UsePoint
 IF ( @ReturnValue < 0 )
 BEGIN
-	GOTO ERROR
+    GOTO ERROR
 END
 
 INSERT INTO PointLog(UseType,UserUID,CharID,UsePoint,ProductCode,UseDate,RemainPoint,OrderNumber)
 VALUES(@UseType,@UserUID,@CharID,@UsePoint,@ProductCode,@UseDate,@RemainPoint,@OrderNumber)
 IF( @@ERROR<>0)
 BEGIN
-	GOTO ERROR
+    GOTO ERROR
 END
 
 COMMIT TRAN
