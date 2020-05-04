@@ -23,3 +23,5 @@ https://github.com/zidane168/Shaiya-Projects/tree/master/Fix%20Item%20mall%20SQL
 * ps_game reported not to have random disconnects
 
 * linked servers query that needs to be edited to match your login credentials
+
+* usp_Save_User_BuyPointItems2 required by the ep5 db_Agent.exe to update points
