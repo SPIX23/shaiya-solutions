@@ -6,8 +6,6 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-
-
 ALTER Proc [dbo].[usp_Save_Char_Info_E]
 
 @CharID int,
@@ -57,20 +55,20 @@ SET @ServerID = 1
 
 IF (ISNumeric(@Posx) = 1 and ISNumeric(@Posy) = 1 and ISNumeric(@Posz) = 1)
 BEGIN
-	SET @PosxR = CAST(@Posx as real)
-	SET @PosyR = CAST(@Posy as real)
-	SET @PoszR = CAST(@Posz as real)
+    SET @PosxR = CAST(@Posx as real)
+    SET @PosyR = CAST(@Posy as real)
+    SET @PoszR = CAST(@Posz as real)
 END
 ELSE
 BEGIN
     DECLARE @UserUID int
-	--Only gets here if there is a error in the positions, Most likely a bot or exploit.
-	--Log in a error table for manual invest.
-	--Set all the pos. to bootleg so it doesn't throw an error
-	SET @Map = 42
-	SET @PosxR = 66.5
-	SET @PosYR = 6.0
-	SET @PosZR = 52.6
+    --Only gets here if there is a error in the positions, Most likely a bot or exploit.
+    --Log in a error table for manual invest.
+    --Set all the pos. to bootleg so it doesn't throw an error
+    SET @Map = 42
+    SET @PosxR = 66.5
+    SET @PosYR = 6.0 --must be higher for bootleggery
+    SET @PosZR = 52.6
 END
 
 UPDATE Chars
