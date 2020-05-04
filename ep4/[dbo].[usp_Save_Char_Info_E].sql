@@ -55,20 +55,20 @@ SET @ServerID = 1
 
 IF (ISNumeric(@Posx) = 1 and ISNumeric(@Posy) = 1 and ISNumeric(@Posz) = 1)
 BEGIN
-	SET @PosxR = CAST(@Posx as real)
-	SET @PosyR = CAST(@Posy as real)
-	SET @PoszR = CAST(@Posz as real)
+    SET @PosxR = CAST(@Posx as real) 
+    SET @PosyR = CAST(@Posy as real)
+    SET @PoszR = CAST(@Posz as real)
 END
 ELSE
 BEGIN
     DECLARE @UserUID int
-	--Only gets here if there is a error in the positions, Most likely a bot or exploit.
-	--Log in a error table for manual invest.
-	--Set all the pos. to bootleg so it doesn't throw an error
-	SET @Map = 42
-	SET @PosxR = 66.5
-	SET	@PosYR = 6.0
-	SET @PosZR = 52.6
+    --Only gets here if there is a error in the positions, Most likely a bot or exploit.
+    --Log in a error table for manual invest.
+    --Set all the pos. to bootleg so it doesn't throw an error
+    SET @Map = 42
+    SET @PosxR = 66.5
+    SET @PosYR = 2.0 --correct height for vault guild
+    SET @PosZR = 52.6
 END
 
 UPDATE Chars
@@ -82,16 +82,16 @@ WHERE CharID = @CharID
 
 IF( (@K1 IS NOT NULL) AND (@K2 IS NOT NULL) AND (@K3 IS NOT NULL) AND (@K4 IS NOT NULL))
 BEGIN
-	UPDATE Chars SET K1=@K1, K2=@K2, K3=@K3, K4=@K4 WHERE CharID=@CharID
+    UPDATE Chars SET K1=@K1, K2=@K2, K3=@K3, K4=@K4 WHERE CharID=@CharID
 END
 
 IF(@@ERROR = 0 AND @@ROWCOUNT = 1)
 BEGIN
-	RETURN 1
+    RETURN 1
 END
 ELSE
 BEGIN
-	RETURN -1
+    RETURN -1
 END
 
 SET NOCOUNT OFF 
