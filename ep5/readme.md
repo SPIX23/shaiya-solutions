@@ -4,6 +4,8 @@
 
 * ps_game that has been reversed to have no custom dll injections for those that don't want an item mall
 
+* ps_db_Agent for ep5 that doesn't dc after 10 item mall purchases
+
 * possible solution for capes being enchanted via client modification (likely accompanied by packet injection)
 
 * ct files that help solve issues with rune skill cutting, the skill cooldown exploit, and prevent the stealth exploit
