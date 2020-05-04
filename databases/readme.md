@@ -5,5 +5,3 @@
 **notes**
 
 * the ep3 ps_game expects the ps_gamedefs.dbo.mobitem itemorder column to have 3 rows and cannot process 9 rows
-
-* [dbo].[usp_Save_Char_Info_E] must be edited to SET @PosYR = 2.0 for compatibilty with bootleggery (check dupe solution)
