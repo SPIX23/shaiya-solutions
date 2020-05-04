@@ -14,7 +14,7 @@
 
 * ct files that disable the /iclear, /eclear, and /warning commands
 
-* ini file that enables the in-game clock in the game.exe to function - credits: ThatBestNub
+* ini file that enables the in-game clock in the game.exe to function (credits: ThatBestNub)
 
 **notes** 
 
