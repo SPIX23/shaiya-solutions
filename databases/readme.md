@@ -4,4 +4,4 @@
 
 **notes**
 
-* the ep3 ps_game accepts the ps_gamedefs.dbo.mobitem itemorder column that has 3 rows and will have errors with 9 rows
+* the ep3 ps_game reads ps_gamedefs.dbo.mobitem itemorder column that has 3 rows and cannot process columns with 9 rows
