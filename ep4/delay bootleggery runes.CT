@@ -1,0 +1,24 @@
+//delay bootleggery recall runes by Bowie 02/2020
+[ENABLE]
+alloc(newmem,128)
+label(return)
+label(exit)
+
+newmem:
+cmp dword ptr [ebp+00001274],02
+je 00465E18
+cmp dword ptr [eax+000001A4],00
+
+exit:
+jmp return
+
+0046675D:
+jmp newmem
+nop
+nop
+return:
+
+[DISABLE]
+dealloc(newmem)
+0046675D:
+cmp dword ptr [eax+000001A4],00
