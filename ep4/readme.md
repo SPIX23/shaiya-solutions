@@ -12,6 +12,4 @@
 
 * ps_dbAgent with packet based dupe fix with edited [dbo].[usp_Save_Char_Info_E] (credits: lilprohacker)
 
-**notes** 
-
-* some of the ct files are combinations of multiple scripts that need to be separated before assembling
+* game.exe with antifreeze, speed recreation, speed enchantment, and exploit solutions
