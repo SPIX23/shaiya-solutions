@@ -8,9 +8,7 @@
 
 * possible solution for capes being enchanted via client modification (likely accompanied by packet injection)
 
-* ct files that help solve issues with rune skill cutting, and prevent the stealth exploit
-
-* ct file that blocks defenders and guardians from using skill reset stones, and blocks target res runes in grb
+* ct files that help solve issues with rune skill cutting and prevent the stealth exploit
 
 * ct file that will remove the code that keeps guards from detecting a character in stealth mode
 
@@ -18,8 +16,6 @@
 
 * ct files that disable the /iclear, /eclear, and /warning commands
 
+* ct file that blocks defenders and guardians from using skill reset stones and blocks target res runes in grb
+
 * ini file that enables the in-game clock in the game.exe to function (credits: ThatBestNub)
-
-**notes** 
-
-* some of the ct files are combinations of multiple scripts that need to be separated before assembling
