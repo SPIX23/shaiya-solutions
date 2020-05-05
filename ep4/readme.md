@@ -1,6 +1,8 @@
 **contents**
 
-* ct files that help solve issues with rune skill cutting and prevent the stealth exploit
+* ct files that help solve issues with rune skill cutting by delaying the use of runes after using skills
+
+* ct file that will prevent rangers and assassins from adding or removing gear in stealth mode
 
 * ct file that will remove the code that keeps guards from detecting a character in stealth mode
 
