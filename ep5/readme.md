@@ -8,7 +8,9 @@
 
 * possible solution for capes being enchanted via client modification (likely accompanied by packet injection)
 
-* ct files that help solve issues with rune skill cutting, the skill cooldown exploit, and prevent the stealth exploit
+* ct files that help solve issues with rune skill cutting, and prevent the stealth exploit
+
+* ct file that blocks defenders and guardians from using skill reset stones, and blocks target res runes in grb
 
 * ct file that will remove the code that keeps guards from detecting a character in stealth mode
 
