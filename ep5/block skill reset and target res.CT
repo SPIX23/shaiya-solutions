@@ -1,8 +1,11 @@
 //block skill reset stones by Bowie 02/2020
+//block target res runes on grb map 05/2020
 [ENABLE]
 alloc(newmem,128)
 label(return)
 label(exit)
+label(block)
+label(grb)
 
 newmem:
 mov ecx,[ebx+30]
@@ -10,13 +13,20 @@ cmp [ecx],#100047 //skill reset stone
 je block
 cmp [ecx],#100089 //skill reset stone
 je block
+cmp [ecx],#100067 //target res rune
+je grb
 
 exit:
 cmp dword ptr [ecx+000000A0],1A
 jmp return
 
-block:
+block: //disallow defs and guards
 cmp byte ptr [ebp+00000134],01  //job D/G
+je 0047469F
+jmp exit
+
+grb: //disallow target res runes in grb
+cmp byte ptr[ebp+00000160],#50 //grb map
 je 0047469F
 jmp exit
 
