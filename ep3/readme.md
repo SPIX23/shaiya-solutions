@@ -7,7 +7,3 @@
 * ct file that will allow rangers and sins to use skills from stealth like they are able to in newer episodes
 
 * ct file that corrects the bug of prior ranking battle points stacking with the current ranking battle points
-
-**notes**
-
-* some of the ct files are combinations of multiple scripts that need to be separated before assembling
