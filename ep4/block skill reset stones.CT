@@ -19,8 +19,13 @@ exit:
 cmp dword ptr [ecx+000000A0],1A
 jmp return
 
-block:
+block: //disallow defenders and guardians
 cmp byte ptr [ebp+00000134],01  //job D/G
+je 00465E2D
+jmp exit
+
+grb: //disallow target res runes in grb
+cmp byte ptr[ebp+00000164],#50 //grb map
 je 00465E2D
 jmp exit
 
