@@ -1,0 +1,24 @@
+//delay arena recall runes by Bowie 02/2020
+[ENABLE]
+alloc(newmem,128)
+label(return)
+label(exit)
+
+newmem:
+cmp dword ptr [ebp+00001274],02
+je 00465E18
+cmp dword ptr [eax+000001A4],00
+
+exit:
+jmp return
+
+004667F7:
+jmp newmem
+nop
+nop
+return:
+
+[DISABLE]
+dealloc(newmem)
+004667F7:
+cmp dword ptr [eax+000001A4],00
