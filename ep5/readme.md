@@ -8,7 +8,7 @@
 
 * possible solution for capes being enchanted via client modification (likely accompanied by packet injection)
 
-* ct file that help solve issues with rune skill cutting by delaying the use of runes after using skills
+* ct files that help solve issues with rune skill cutting by delaying the use of runes after using skills
 
 * ct file that will prevent rangers and assassins from adding or removing gear in stealth mode
 
