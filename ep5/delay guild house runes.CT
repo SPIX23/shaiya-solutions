@@ -1,0 +1,24 @@
+//delays using guild house rune after using skills
+[ENABLE]
+alloc(newmem,128)
+label(return)
+label(exit)
+
+newmem:
+cmp dword ptr [ebp+00001270],02
+je 004742B6
+cmp dword ptr [eax+000001A4],06
+
+exit:
+jmp return
+
+00474196:
+jmp newmem
+nop
+nop
+return:
+
+[DISABLE]
+dealloc(newmem)
+00474196:
+cmp dword ptr [eax+000001A4],06
