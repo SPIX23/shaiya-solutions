@@ -1,9 +1,10 @@
-//block D/G from using skill reset by Bowie 12/2019
+//block skill reset stones by Bowie 12/2019
 [ENABLE]
 alloc(newmem,128)
 label(return)
 label(block)
 label(exit)
+label(grb)
 
 newmem:
 mov ecx,[ebx+30]
@@ -11,15 +12,19 @@ cmp [ecx],#100047 //skill reset stone
 je block
 cmp [ecx],#100089 //skill reset stone
 je block
+cmp [ecx],#100067 //target res rune
+je block
 
 exit:
 cmp dword ptr [ecx+000000A0],1A
 jmp return
 
-block:
+block: //disallow defenders and guardians
 cmp byte ptr [ebp+00000134],01  //job D/G
 je 0044D475
 jmp exit
+
+grb:
 
 0044CD46:
 jmp newmem
