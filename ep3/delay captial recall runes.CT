@@ -1,0 +1,24 @@
+//delay capital runes after skills by Bowie 12/2019
+[ENABLE]
+alloc(newmem,128)
+label(return)
+label(exit)
+
+newmem:
+cmp dword ptr [ebp+00001164],02
+je 0044D460
+cmp dword ptr [eax+0000019C],00
+
+exit:
+jmp return
+
+0044DC52:
+jmp newmem
+nop
+nop
+return:
+
+[DISABLE]
+dealloc(newmem)
+0044DC52:
+cmp dword ptr [eax+0000019C],00
