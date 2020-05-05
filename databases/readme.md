@@ -5,3 +5,5 @@
 **notes**
 
 * the ep3 ps_game expects the ps_gamedefs.dbo.mobitem itemorder column to have 3 rows and cannot process 9 rows
+
+* guilds and the auction board have not been fully tested
