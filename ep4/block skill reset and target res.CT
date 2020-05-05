@@ -1,3 +1,4 @@
+//block skill reset stones by Bowie 02/2020
 //block target res runes on grb map 05/2020
 [ENABLE]
 alloc(newmem,128)
