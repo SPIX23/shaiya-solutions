@@ -1,8 +1,10 @@
-//block skill reset stones by Bowie 01/2020
+//block target res runes on grb map 05/2020
 [ENABLE]
 alloc(newmem,128)
 label(return)
 label(exit)
+label(block)
+label(grb)
 
 newmem:
 mov ecx,[ebx+30]
