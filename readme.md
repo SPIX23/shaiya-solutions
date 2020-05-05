@@ -4,4 +4,4 @@
 
 * ps_login ct file that will decrease the amount of failed logins allowed before the client gets disconnected
 
-* procedure that deters players from camping kimuraku by changing the map positions if they log off in D2
+* procedure that prevents camping kimuraku by changing the map positions if they logout anywhere in D2
