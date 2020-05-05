@@ -4,4 +4,4 @@
 
 * ps_login ct file that will decrease the amount of failed logins allowed before the client gets disconnected
 
-* procedure that prevents camping kimuraku by changing the map positions if they logout anywhere in D2
+* Insert_Action_Log_E procedure that moves toons outside by changing the map positions when they logout in D2
