@@ -4,4 +4,4 @@
 
 * ps_login ct file that will decrease the amount of failed logins allowed before the client gets disconnected
 
-* Insert_Action_Log_E procedure that changes the map positions of a character when they logout in D2
+* Insert_Action_Log_E procedure that changes the map positions of a character when they log off in D2
