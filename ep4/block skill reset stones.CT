@@ -12,6 +12,8 @@ cmp [ecx],#100047 //skill reset stone
 je block
 cmp [ecx],#100089 //skill reset stone
 je block
+cmp [ecx],#100067 //target res rune
+je grb
 
 exit:
 cmp dword ptr [ecx+000000A0],1A
