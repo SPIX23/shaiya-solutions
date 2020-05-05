@@ -1,0 +1,24 @@
+//delays using bootleggery runes after using skills
+[ENABLE]
+alloc(newmem,128)
+label(return)
+label(exit)
+
+newmem:
+cmp dword ptr [ebp+00001270],02
+je 0047468A
+cmp dword ptr [eax+000001A4],00
+
+exit:
+jmp return
+
+00473ED7:
+jmp newmem
+nop
+nop
+return:
+
+[DISABLE]
+dealloc(newmem)
+00473ED7:
+cmp dword ptr [eax+000001A4],00
