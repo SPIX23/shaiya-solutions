@@ -1,6 +1,6 @@
 **contents**
 
-* clean sql databases that are compatible with ep3, ep4, ep5, and ep6
+* clean sql databases that are compatible with ep3, ep4, ep5, and ep6 server files
 
 **notes**
 
