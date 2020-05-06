@@ -4,4 +4,4 @@
 
 * ps_login ct file that will decrease the amount of failed logins allowed before the client gets disconnected
 
-* Insert_Action_Log_E procedure that changes the map positions of characters that try to camp kimuraku
+* Insert_Action_Log_E procedure that changes the map positions of characters that log off in D2
