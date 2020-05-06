@@ -1,6 +1,6 @@
 **contents**
 
-* clean sql databases that are compatible with ep3, ep4, and ep5 server files and able to be used with sql 2014 or greater
+* clean sql databases that are compatible with ep3, ep4, ep5, and ep6
 
 **notes**
 
