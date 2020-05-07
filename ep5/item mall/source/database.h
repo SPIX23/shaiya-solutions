@@ -5,9 +5,7 @@
 #import "msado15.dll" no_namespace rename("EOF", "adoEOF") 
 #endif
 
-#include <targetver.h>
-#include <stdafx.h>
-#include <vector>
+#include "pch.h"
 
 using std::vector;
 
