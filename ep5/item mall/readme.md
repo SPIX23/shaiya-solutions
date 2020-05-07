@@ -2,12 +2,6 @@
 
 https://github.com/zidane168/Shaiya-Projects/tree/master/Fix%20Item%20mall%20SQL%202012
 
-*use these additional settings to easily resolve compilation errors*
-
-Properties -> Configuration Properties -> Linker -> Additional Dependencies - legacy_stdio_definitions.lib;comsuppw.lib;
-
-Properties -> Configuration Properties -> C/C++ -> Disable Specific Warnings - 4996;4838;
-
 **instructions**
 
 1. search the dll with a hex editor for the username and password located in the ps_game.sql file as unicode strings
