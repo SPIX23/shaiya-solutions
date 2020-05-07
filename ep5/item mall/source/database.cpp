@@ -1,6 +1,4 @@
-#include <targetver.h>
-#include <stdafx.h>
-#include <comdef.h>
+#include "pch.h"
 #include "database.h"
 
 CDataBase::CDataBase(void)
@@ -11,10 +9,10 @@ CDataBase::CDataBase(void)
 
 BOOL CDataBase::LinkDataBase()
 {
-   ::CoInitialize(NULL);
+   CoInitialize(NULL);
    try
    {
-	   HRESULT hr1 = m_pConnect.CreateInstance(_T("ADODB.Connection"));
+	   HRESULT hr1 = m_pConnect.CreateInstance(L"ADODB.Connection");
 	   if (FAILED(hr1))
 	   {
 		   return FALSE;
@@ -35,7 +33,7 @@ BOOL CDataBase::LinkDataBase(CString ip,CString DbName,CString UserName,CString 
 {
 	try
 	{
-		m_pConnect.CreateInstance(_T("ADODB.Connection"));
+		m_pConnect.CreateInstance(L"ADODB.Connection");
 		CString szLink;
 		szLink.Format(L"Provider=SQLOLEDB;Server=127.0.0.1;Database=PS_UserData;Uid=yourusername1234;Pwd=yourpassword1234;", ip, DbName, UserName, Pw);
 		m_pConnect->Open(_bstr_t(szLink), _bstr_t(L""), _bstr_t(L""), adModeUnknown);
