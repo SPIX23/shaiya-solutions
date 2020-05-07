@@ -16,6 +16,10 @@ https://github.com/zidane168/Shaiya-Projects/tree/master/Fix%20Item%20mall%20SQL
 
 * connection string that is tested to be compatible with sql versions higher than 2012
 
+* reduced the overall project size and used different source code for hooks
+
+* compiled the dll with runtime libraries included to ensure system compatibilty
+
 **contents**
 
 * sql query that creates a login with the minimal database permissions the dll requires
