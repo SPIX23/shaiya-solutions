@@ -4,7 +4,7 @@ https://github.com/zidane168/Shaiya-Projects/tree/master/Fix%20Item%20mall%20SQL
 
 **additional dependencies**
 
-* legacy_stdio_definitions.lib;comsuppw.lib;
+* legacy_stdio_definitions.lib;
 
 **disable specific warnings**
 
