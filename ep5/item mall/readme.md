@@ -18,7 +18,7 @@ https://github.com/zidane168/Shaiya-Projects/tree/master/Fix%20Item%20mall%20SQL
 
 **contents**
 
-* sql query that creates a login with the minimal database permissions required
+* sql query that creates a login with the minimal database permissions the dll requires
 
 * ps_game reported not to have random disconnects
 
