@@ -1,13 +1,13 @@
-#ifdef ITEMMALLFIX_EXPORTS
-#define ITEMMALLFIX_API extern "C" __declspec(dllexport)
+#ifdef MALL_EXPORTS
+#define MALL_API extern "C" __declspec(dllexport)
 #else
-#define ITEMMALLFIX_API __declspec(dllimport)
+#define MALL_API __declspec(dllimport)
 #endif
 
-DWORD WINAPI ThreadProc1(_In_  LPVOID lpParameter);
-DWORD WINAPI ThreadProc2(_In_  LPVOID lpParameter);
+DWORD __stdcall mallThread1(_In_ LPVOID lpParameter);
+DWORD __stdcall mallThread2(_In_ LPVOID lpParameter);
 
-ITEMMALLFIX_API int Start(void);
+MALL_API int mallStart(void);
 
 typedef struct _ITEMMALL
 {
@@ -63,5 +63,3 @@ typedef struct _ITEMMALL
 	BYTE count23;
 	BYTE count24;
 }ITEMMALL, *PITEMMALL;
-
-
