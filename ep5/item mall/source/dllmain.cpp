@@ -1,17 +1,16 @@
-#include "stdafx.h"
-#include "ps_game.h"
+#include "pch.h"
+#include "mall.h"
 
-BOOL APIENTRY DllMain(HMODULE hModule,
-	DWORD  ul_reason_for_call,
-	LPVOID lpReserved
-)
+BOOL APIENTRY DllMain(HMODULE hModule, DWORD dwReason, LPVOID lpReserved)
 {
-	switch (ul_reason_for_call)
+	switch (dwReason)
 	{
 	case DLL_PROCESS_ATTACH:
-		::CreateThread(0, 0, ThreadProc1, 0, 0, 0);
+		CreateThread(NULL, 0, mallThread1, 0, NULL, 0);
 	case DLL_THREAD_ATTACH:
+		break;
 	case DLL_THREAD_DETACH:
+		break;
 	case DLL_PROCESS_DETACH:
 		break;
 	}
