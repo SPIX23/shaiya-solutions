@@ -19,5 +19,3 @@
 * ct files that disable the /iclear, /eclear, and /warning commands
 
 * ct file that blocks defenders and guardians from using skill reset stones and blocks target res runes in grb
-
-* ini file that enables the in-game clock in the game.exe to function (credits: ThatBestNub)
