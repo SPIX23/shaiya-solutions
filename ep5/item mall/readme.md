@@ -3,10 +3,12 @@
 https://github.com/zidane168/Shaiya-Projects/tree/master/Fix%20Item%20mall%20SQL%202012
 
 **additional dependencies**
-legacy_stdio_definitions.lib;comsuppw.lib;
+
+* legacy_stdio_definitions.lib;comsuppw.lib;
 
 **disable specific warnings**
-4996;4838;
+
+* 4996;4838;
 
 **instructions**
 
