@@ -14,4 +14,4 @@
 
 **notes**
 
-* remove apostrophes each mass update and apply the nostrum hack solution after every mass skill update
+* remove apostrophes each mass update and execute the nostrum hack solution after every mass skill update
