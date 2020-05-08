@@ -7,7 +7,7 @@ nop
 nop
 nop
 nop
-//will also break stealth like it should ^^
+
 [DISABLE]
 0045139B:
 jne 0045174A
