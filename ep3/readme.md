@@ -11,7 +11,3 @@
 * game.exe with antifreeze and exploit solutions
 
 * ps_gamedefs matching client version 40 with dd1, dd2, and stable erde mini boss ai and damage bugs fixed
-
-**notes**
-
-* remember to execute the nostrum hack solution query after every dbo.skills table update
