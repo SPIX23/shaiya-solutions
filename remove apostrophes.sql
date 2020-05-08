@@ -1,5 +1,5 @@
-USE PS_GameDefs
+use ps_gamedefs
 --removes apostrophes from these columns to prevent errors
-update dbo.Skills set SkillName=replace(SkillName,'''','');
-update dbo.Mobs set MobName=replace(MobName,'''','');
-update dbo.Items set ItemName=replace(ItemName,'''','');
+update dbo.skills set skillname=replace(skillname,'''','');
+update dbo.mobs set mobname=replace(mobname,'''','');
+update dbo.items set itemname=replace(itemname,'''','');
