@@ -11,3 +11,7 @@
 * game.exe with antifreeze and exploit solutions
 
 * ps_gamedefs matching client version 40 with dd1, dd2, and stable erde mini boss ai and damage bugs fixed
+
+**notes**
+
+* remove apostrophes each mass update and apply the nostrum hack solution after every mass skill update
