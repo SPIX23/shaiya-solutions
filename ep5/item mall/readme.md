@@ -38,4 +38,4 @@ https://github.com/zidane168/Shaiya-Projects/tree/master/Fix%20Item%20mall%20SQL
 
 * linked servers query that needs to be edited to match your login credentials
 
-* usp_Save_User_BuyPointItems2 required by the ep5 db_Agent (included with my ps_gamedata)
+* usp_Save_User_BuyPointItems2 that the ep5 ps_dbAgent requires
