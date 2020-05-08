@@ -10,4 +10,4 @@
 
 * game.exe with antifreeze and exploit solutions
 
-* ps_gamedefs that matches client version 40
+* ps_gamedefs that matches client version 40 with mob damage and ai changes that resolve some bugs
