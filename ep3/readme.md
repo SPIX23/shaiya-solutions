@@ -9,3 +9,5 @@
 * ct file that corrects the bug of prior ranking battle points stacking with the current ranking battle points
 
 * game.exe with antifreeze and exploit solutions
+
+* ps_gamedefs that matches client version 40
