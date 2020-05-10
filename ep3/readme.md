@@ -14,4 +14,4 @@
 
 **notes**
 
-* execute remove apostrophes, nostrum hack solution, and no enchant or oj after sql skill and item updates
+* execute remove apostrophes, nostrum hack solution, and no enchant or oj after mass skill and item updates
