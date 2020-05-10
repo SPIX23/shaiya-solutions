@@ -10,4 +10,4 @@
 
 **notes**
 
-* leave status must update properly for the dbo.usp_Insert_Action_Log_E procedures (included with my ps_userdata)
+* leave status must update properly for the dbo.usp_Insert_Action_Log_E procedures to work
