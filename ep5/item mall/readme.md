@@ -18,11 +18,9 @@ https://github.com/zidane168/Shaiya-Projects/tree/master/Fix%20Item%20mall%20SQL
 
 3. be mindful of possible login failure when using certain sql operators in the username
 
-**updates**
+**revisions**
 
-* updated source code with 16 character strings for the username and password
-
-* connection string that is tested to be compatible with sql versions higher than 2012
+* 16 character strings for the username and password and a new connection string
 
 * made the code smaller, more readable, and used different source code for hooks
 
