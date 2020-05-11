@@ -1,6 +1,6 @@
 **contents**
 
-* updated version of shen's item mall solution for ep5 servers along with the source code
+* revised version of shen's item mall solution for ep5 servers along with the source code
 
 * ps_game that has been reversed to have no custom dll injections for those that don't want an item mall
 
