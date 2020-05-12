@@ -4,6 +4,8 @@
 
 * ps_login ct file that will decrease the amount of failed logins allowed before the client gets disconnected
 
+* ps_login with the aforementioned mods applied plus anti-injection (nubness) and handshake (anton) solutions
+
 * Insert_Action_Log_E procedure that changes the mapid and coordinates of characters that log off in D2
 
 * apostrophe removal query for mobs, skills, and items that should be executed after updating the tables
