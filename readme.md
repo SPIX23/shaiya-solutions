@@ -12,7 +12,7 @@
 
 **todo**
 
-* figure out a better solution to connection overflow than ignoring the maximum client connections
+* figure out a better solution to connection overflow than bypassing the maximum client connections
 
 **workaround**
 
