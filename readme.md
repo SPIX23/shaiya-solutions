@@ -9,3 +9,11 @@
 * Insert_Action_Log_E procedure that changes the mapid and coordinates of characters that log off in D2
 
 * apostrophe removal query for mobs, skills, and items that should be executed after updating the tables
+
+**todo**
+
+* figure out a better solution to connection overflow than ignoring the maximum client connections
+
+**workaround**
+
+* 00411ABD - nop to remove conditional jump
