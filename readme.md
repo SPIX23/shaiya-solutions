@@ -16,4 +16,4 @@
 
 **workaround**
 
-* 00411ABD - nop to remove conditional jump
+* 00411ABD - nop to remove conditional jump (not applied to ps_login)
