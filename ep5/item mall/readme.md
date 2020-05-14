@@ -24,8 +24,6 @@ https://github.com/zidane168/Shaiya-Projects/tree/master/Fix%20Item%20mall%20SQL
 
 * made the code smaller, more readable, and used different source code for hooks
 
-* compiled the dll with runtime libraries included to ensure system compatibilty
-
 **contents**
 
 * sql query that creates a login with the minimal database permissions the dll requires
