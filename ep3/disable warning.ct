@@ -1,0 +1,8 @@
+//disable /warning by Bowie 05/2020
+[ENABLE]
+0045A93A:
+jmp 0045A9B2
+ 
+[DISABLE]
+0045A93A:
+je 0045A9B2
