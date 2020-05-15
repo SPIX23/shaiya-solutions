@@ -5,6 +5,7 @@ label(return)
 label(exit)
 label(check)
 //people intentionally add/remove to lag others
+//comment out whatever you think is unnecessary
 newmem:
 mov esi,[ebx+30] //original code
 //type is in ebx
