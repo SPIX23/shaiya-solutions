@@ -14,8 +14,8 @@ cmp byte ptr[ebx+40],#121 //wings
 je check
 cmp byte ptr[ebx+40],#150 //costumes
 je check
-cmp cx,[esi+2E]
 exit:
+cmp cx,[esi+2E]
 jmp return
 
 check:
