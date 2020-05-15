@@ -1,0 +1,36 @@
+//equip pets/wings/costumes in ah by Bowie 05/2020
+[ENABLE]
+alloc(newmem,128)
+label(return)
+label(exit)
+label(check)
+
+newmem:
+mov esi,[ebx+30]
+//type is in ebx
+cmp byte ptr[ebx+40],#120 //pets
+je check
+cmp byte ptr[ebx+40],#121 //wings
+je check
+cmp byte ptr[ebx+40],#150 //costumes
+je check
+cmp cx,[esi+2E]
+exit:
+jmp return
+
+check:
+cmp byte ptr[edi+160],#42 //ah mapid
+jne 00468535 //can't equip if not ah
+jmp exit
+
+00468378:
+jmp newmem
+nop
+nop
+return:
+
+[DISABLE]
+dealloc(newmem)
+00468378:
+mov esi,[ebx+30]
+cmp cx,[esi+2E]
