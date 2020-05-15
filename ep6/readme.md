@@ -8,4 +8,4 @@
 
 **todo**
 
-* make a counter for each user or a global delay
+* make a counter or delay for individual users
