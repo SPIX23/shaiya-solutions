@@ -6,7 +6,7 @@ label(exit)
 label(check)
 
 newmem:
-mov esi,[ebx+30]
+mov esi,[ebx+30] //original code
 //type is in ebx
 cmp byte ptr[ebx+40],#120 //pets
 je check
@@ -15,7 +15,7 @@ je check
 cmp byte ptr[ebx+40],#150 //costumes
 je check
 exit:
-cmp cx,[esi+2E]
+cmp cx,[esi+2E] //original code
 jmp return
 
 check:
