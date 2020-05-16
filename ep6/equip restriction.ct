@@ -1,0 +1,56 @@
+{block pets/wings/costumes from being
+equipped on pvp maps by Bowie 05/2020}
+[ENABLE]
+alloc(newmem,256)
+label(return)
+label(exit)
+label(maps)
+{this is because of players lagging
+other players by spamming this gear}
+newmem:
+mov esi,[ebx+30] //original code
+//the item type is stored in ebx
+cmp byte ptr[ebx+40],#120 //pets
+je maps
+cmp byte ptr[ebx+40],#121 //wings
+je maps
+cmp byte ptr[ebx+40],#150 //costumes
+je maps
+exit:
+cmp cx,[esi+2E] //original code
+jmp return
+//add or remove maps as needed
+maps:
+cmp byte ptr[edi+160],#0 //d-water
+je 00468535 //can't equip
+cmp byte ptr[edi+160],#18 //proelium
+je 00468535 //can't equip
+cmp byte ptr[edi+160],#30 //canta
+je 00468535 //can't equip
+cmp byte ptr[edi+160],#45 //dd1
+je 00468535 //can't equip
+cmp byte ptr[edi+160],#46 //dd2
+je 00468535 //can't equip
+cmp byte ptr[edi+160],#47 //jungle
+je 00468535 //can't equip
+cmp byte ptr[edi+160],#70
+je 00468535 //can't equip
+cmp byte ptr[edi+160],#75
+je 00468535 //can't equip
+cmp byte ptr[edi+160],#109
+je 00468535 //can't equip
+cmp byte ptr[edi+160],#110
+je 00468535 //can't equip
+jmp exit
+
+00468378:
+jmp newmem
+nop
+nop
+return:
+
+[DISABLE]
+dealloc(newmem)
+00468378:
+mov esi,[ebx+30]
+cmp cx,[esi+2E]
