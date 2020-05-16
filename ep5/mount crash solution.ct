@@ -21,27 +21,3 @@ return:
 dealloc(newmem)
 0049DBDE:
 mov [edi+0000147C],edx
-
-//force dismount when you /charoff by Bowie 02/2020
-[ENABLE]
-alloc(newmem,128)
-label(return)
-label(exit)
-//solves a goofy mount glitch with invisible admins
-newmem: //offsets: mount = 147C - charon/off = 5814
-mov byte ptr [ebp+0000147C],00 //move 0 into offset
-mov byte ptr [ebp+00005814],01 //move 1 into offset
-
-exit:
-jmp return
-
-004834E7:
-jmp newmem
-nop
-nop
-return:
-
-[DISABLE]
-dealloc(newmem)
-004834E7:
-mov byte ptr [ebp+00005814],01
