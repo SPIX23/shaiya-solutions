@@ -50,9 +50,27 @@ retn
 
 * the overwritten code is added to the end of the hook that begins at address 04096181
 
+* the dll name is a binary edit that begins at address 04096195 and is pushed before calling LoadLibraryA
+
 ```asm
 pushad
 push 04096195 //ps_game.dll
+call dword ptr ds:[005541C4] //LoadLibraryA
+popad
+pop esi
+pop edi
+pop ebx
+leave
+retn
+```
+
+* you may hook as many dlls as you wish by following this example
+
+```asm
+pushad
+push <dllnameaddress> //ps_game.dll
+call dword ptr ds:[005541C4] //LoadLibraryA
+push <dllnameaddress> //another.dll
 call dword ptr ds:[005541C4] //LoadLibraryA
 popad
 pop esi
