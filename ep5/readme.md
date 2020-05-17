@@ -23,4 +23,4 @@
 
 **notes**
 
-* the ps_game has an extra code section that begins at address 04096000 that can be used for code caves ^_^
+* the ps_game has an extra code section beginning at address 04096000 that can be used for code caves ^_^
