@@ -19,3 +19,8 @@
 * ct files that disable the /iclear, /eclear, and /warning commands
 
 * ct file that blocks defenders and guardians from using skill reset stones and blocks target res runes in grb
+
+
+**notes**
+
+* the ps_game has an extra code section that begins at address 04096000 that can be used for code caves ^_^
