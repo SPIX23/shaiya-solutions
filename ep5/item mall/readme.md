@@ -35,3 +35,31 @@ https://github.com/zidane168/Shaiya-Projects/tree/master/Fix%20Item%20mall%20SQL
 * linked servers query that needs to be edited to match your login credentials
 
 * usp_Save_User_BuyPointItems2 that the ep5 ps_dbAgent requires
+
+**notes**
+
+* the jump to hook the dll is at address 005312FB and overwrites the following code
+
+```asm
+pop esi
+pop edi
+pop ebx
+leave
+retn
+```
+
+* the overwritten code is added to the end of the hook that begins at address 04096181
+
+```asm
+pushad
+push 04096195 //ps_game.dll
+call dword ptr ds:[005541C4] //LoadLibraryA
+popad
+pop esi
+pop edi
+pop ebx
+leave
+retn
+```
+
+
