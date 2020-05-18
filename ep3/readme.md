@@ -5,7 +5,7 @@
 * ct file that corrects the bug of prior ranking battle points stacking with the current ranking battle points
 * game.exe with antifreeze and exploit solutions
 
-**server files**
+**server**
 * complete ep3 server files for client version 40 that are vastly improved but not flawless (thanks, ZeroSignal)
 * ps_game that runs without the gameguard dlls and cauth config files
 * ps_db_Agent that has been edited to match lilprohacker's packet-based dupe solution (needs testing)
