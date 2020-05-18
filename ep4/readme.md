@@ -1,5 +1,7 @@
 **contents**
 
+* ps_game that runs without the gameguard dlls and cauth config files so they can be removed from the bin
+
 * ct files that help solve issues with rune skill cutting by delaying the use of runes after using skills
 
 * ct file that will prevent rangers and assassins from adding or removing gear in stealth mode
