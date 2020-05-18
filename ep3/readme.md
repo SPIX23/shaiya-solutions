@@ -5,7 +5,7 @@
 * ct file that will allow rangers and sins to use skills from stealth like they are able to in newer episodes
 * ct file that corrects the bug of prior ranking battle points stacking with the current ranking battle points
 * game.exe with antifreeze and exploit solutions
-* ps_gamedefs matching client patch 40 with dd1, dd2, and stable erde mini boss ai and damage bug solutions
+* complete ep3 server files that should match client version 40 that are vastly improved but not flawless
 
 **notes**
 * execute remove apostrophes, nostrum hack solution, and no enchant or oj after mass skill and item updates
