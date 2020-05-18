@@ -9,3 +9,4 @@
 
 **notes**
 * execute remove apostrophes, nostrum hack solution, and no enchant or oj after mass skill and item updates
+* all ep3 client sdata files must be decrypted
