@@ -1,4 +1,4 @@
-*this is a revised version of the following project* 
+**original code** 
 https://github.com/zidane168/Shaiya-Projects/tree/master/Fix%20Item%20mall%20SQL%202012
 
 **additional dependencies**
