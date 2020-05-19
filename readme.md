@@ -4,6 +4,7 @@
 * ps_login with the aforementioned mods applied plus anti-injection (nubness) and handshake fix (anton)
 * Insert_Action_Log_E procedure that changes the mapid and coordinates of characters that log off in D2
 * apostrophe removal query for mobs, skills, and items that should be executed after updating the tables
+* working chinese server bin (read the notes)
 
 **todo**
 * figure out a better solution to connection overflow than bypassing the maximum client connections
