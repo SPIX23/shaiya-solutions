@@ -1,5 +1,5 @@
 **contents**
-* ct file that stops all notice functions from injecting the database 
+* ct file that stops all notice functions from injecting the database (/warning credit: Cups)
 * revised version of shen's item mall solution for ep5 servers along with the source code
 * ps_game that has been reversed to have no custom dll injections for those that don't want an item mall
 * ps_dbAgent for ep5 that doesn't dc after 10 item mall purchases
