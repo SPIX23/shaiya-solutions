@@ -8,7 +8,7 @@
 * ct file that will prevent rangers and assassins from adding or removing gear in stealth mode
 * ct file that will remove the code that keeps guards from detecting a character in stealth mode
 * ct file that will prevent the service from crashing if a gm dismounts while invisible (reported by two admins)
-* ct files that disable the /iclear, /eclear, and /warning commands
+* ct files that disable the /iclear and /eclear commands
 * ct file that blocks defenders and guardians from using skill reset stones and blocks target res runes in grb
 
 **notes**
