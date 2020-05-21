@@ -3,7 +3,7 @@
 alloc(newmem,128)
 label(return)
 label(exit)
-//fixes a dismount ps_game crash with invisible gms
+//prevent dismount ps_game crash with invisible gms
 newmem: //offsets: mount = 147C - charon/off = 5814
 mov byte ptr [ebp+0000147C],00 //move 0 into offset
 mov byte ptr [ebp+00005814],01 //move 1 into offset
