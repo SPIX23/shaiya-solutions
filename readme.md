@@ -6,8 +6,5 @@
 * apostrophe removal query for mobs, skills, and items that should be executed after updating the tables
 * working chinese server bin (read the notes)
 
-**todo**
-* figure out a better solution to connection overflow than bypassing the maximum client connections
-
-**workaround**
-* 00411ABD - nop to remove conditional jump (not applied to ps_login)
+**connection overflow workaround**
+* 00411ABD - nop jnl (not applied to ps_login)
