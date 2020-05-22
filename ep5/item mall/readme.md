@@ -16,6 +16,7 @@ https://github.com/zidane168/Shaiya-Projects/tree/master/Fix%20Item%20mall%20SQL
 **revisions**
 * 16 character strings for the username and password and a new connection string
 * made the code smaller, more readable, and used different source code for hooks
+* compiled with vc runtime libraries
 
 **contents**
 * sql query that creates a login with the minimal database permissions the dll requires
