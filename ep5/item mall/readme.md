@@ -2,9 +2,6 @@
 
 https://github.com/zidane168/Shaiya-Projects/tree/master/Fix%20Item%20mall%20SQL%202012
 
-**connection string**
-Provider=MSOLEDBSQL;Server=myServerName,myPortNumber;Database=myDataBase;UID=myUsername;PWD=myPassword;
-
 **compatibility**
 SQL Server 2019
 SQL Server 2017
