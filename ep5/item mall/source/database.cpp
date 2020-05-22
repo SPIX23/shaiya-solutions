@@ -12,7 +12,7 @@ BOOL CDataBase::LinkDataBase()
    CoInitialize(NULL);
    try
    {
-	   HRESULT hr1 = m_pConnect.CreateInstance(L"ADODB.Connection");
+	   HRESULT hr1 = m_pConnect.CreateInstance("ADODB.Connection");
 	   if (FAILED(hr1))
 	   {
 		   return FALSE;
@@ -33,7 +33,7 @@ BOOL CDataBase::LinkDataBase(CString ip,CString DbName,CString UserName,CString 
 {
 	try
 	{
-		m_pConnect.CreateInstance(L"ADODB.Connection");
+		m_pConnect.CreateInstance("ADODB.Connection");
 		CString szLink;
 		szLink.Format(L"Provider=SQLOLEDB;Server=127.0.0.1;Database=PS_UserData;Uid=yourusername1234;Pwd=yourpassword1234;", ip, DbName, UserName, Pw);
 		m_pConnect->Open(_bstr_t(szLink), _bstr_t(L""), _bstr_t(L""), adModeUnknown);

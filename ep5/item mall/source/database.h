@@ -48,9 +48,9 @@ public:
 				pRecord->MoveNext();
 				stcSign = pRecord->GetadoEOF();
 			}
-			return L"0";
+			return "0";
 		}
-		return L"0";
+		return "0";
 	}
 
 	BOOL ExeSqlByCommand(CString szSql)
@@ -142,7 +142,7 @@ public:
 				return m_vecDATABASE[i].vecValue[m_dwIndex];
 			}
 		}
-		return L"";
+		return "";
 	}
 
 	void SetSeek(DWORD dwSeek)
